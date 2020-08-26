@@ -1,61 +1,50 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
-
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
-
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
-
-Offline Functionality:
-
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
-
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
-
-## Business Context
-
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+# Online/Offline Budget Trackers
 
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+[![License:MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-- - -
+- Link to
+  [Heroku ](https://budgettrackerdeg.herokuapp.com/)
+  and
+  [GitHub ](https://github.com/DEG18/Progressive-Budget)
 
-## Commit Early and Often
+### Table of Contents
 
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+1. [Description](#description)
+2. [Usage](#usage)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Questions](#questions)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+### Description
 
-* Follow these guidelines for committing:
+- This app allows users to use the accounting function normally without internet.
 
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+- In the case of network recovery, all data will be automatically updated to the forefront.
 
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+- This solves the problem that users cannot use the app normally without a network, and improves user experience.
 
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
 
-  * Test your application before you commit to ensure functionality at every step in the development process
+### Usage
 
-* We would like you to have well over 200 commits by graduation, so commit early and often!
+- After users enter the webpage, they will be able to record the name and amount of each transaction, and they can click on "Add Fund" or "Subtract Fund" for accounting.
 
-## Submission on BCS
 
-* You are required to submit the following:
+### License
 
-  * the URL to the deployed application
+- MIT
 
-  * the URL to the Github repository
+### Contributing
+
+- Luyu Zeng
+
+### Questions
+##### Email:
+- zengluyu252@gmail.com
+
+
+### Screen Shots
+
+![](img/home.PNG)
 
